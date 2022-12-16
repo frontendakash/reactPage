@@ -182,8 +182,8 @@ export const HomePage = () => {
                                 <Slider {...settings}>
                                     {
                                         AvtData.map((item, i) => {
-                                            return <div key={i} className="d-flex align-items-center justify-content-center">
-                                                <img className='Slider-img' src={item.Image} alt="#..." style={{ width: "100%", height: "350px" }} />
+                                            return <div key={i} className="d-flex align-items-center justify-content-center Slider-img-div">
+                                                <img className='Slider-img' src={item.Image} alt="#..." />
                                             </div>
                                         })
                                     }
